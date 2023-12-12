@@ -1,0 +1,473 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body,html {
+    width: 100%;
+    height: 100vh;
+    background: url(./images/herotop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    scroll-behavior: smooth;
+    background-color: #FBF6EE;
+}
+
+
+/*start*/
+
+
+nav {                        /*container*/
+    display: flex;
+    align-items: center;         
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 8px 15px rgb(17, 17, 17);
+    
+}
+
+nav #logo img {
+    height: 50px;
+    margin-left: 30px;
+}
+
+
+nav .linkos {             
+    padding-left: 40px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    transition: all .3s ease;
+}
+
+
+nav #links span {
+    color: #FFB534;
+    font-size: 17px;
+    opacity: 1;
+}
+
+#links a:hover {
+    opacity: .5;
+}
+
+nav #search {
+    position: absolute;
+    left: 90%;
+}
+
+#search img {
+    width: 25px;
+    margin-left: 30px;
+    transition:all .2s ease;
+}
+
+#search img:hover {
+    transform: scale(1.1);
+}
+
+
+/*HERO TOP*/
+
+ #hero {              /*container*/
+    display: flex; 
+    align-items: top;
+    justify-content: center;
+    height: 115vh;
+    width: 100%;
+}
+
+section #hero-text {   /*container*/
+    margin-top: 5%;
+    width: 45%;
+    height: 40%;
+    text-align: center;
+    color: white;
+    
+}
+
+section #hero-text h1 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#hero-text span {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+section #hero-text p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+section #hero-text #btn {
+    background-color: #FFB534;
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: 800;
+    color: white;
+    transition: all 0.2s ease;
+    
+
+}
+
+
+
+#hero-text #btn:hover {
+    transform: scale(1.04);
+}
+
+     /*HERO CENTER*/
+
+#features {               /*container*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 110vh;
+    
+}
+
+div #services {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    opacity: .7;
+    margin-top: 100px;
+    
+}
+
+div #smline {
+    position: absolute;
+    left: 38%;
+    width: 370px;
+    height: 5px;
+    background-color: black;
+    opacity: .4;
+    
+}
+
+#features .ft {
+    width: 400px;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;  
+    padding: 0px 30px;
+    
+}
+
+
+
+#features .ftimg {
+    
+    height: 500px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px;
+    transition: all 0.2s ease;
+}
+
+#features .ftimg:hover {
+    transform: scale(1.02);
+}
+
+#features .ft h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#features .ft p {
+    text-align: justify;
+    font-weight: 500;
+    opacity: .7;
+}
+
+/*HERO BOTTOM*/
+
+#left {             /*container*/
+   
+    width: 50%;
+}
+
+#aboutus {          /*container*/
+    display: flex;
+    gap: 200px;
+    padding: 120px;
+    opacity: .9;
+    background-color: #adbda7;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px;
+}
+
+#aboutus #left h4 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #868675;
+}
+
+#aboutus #left h2 {
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 50px;
+    opacity: .9;
+}
+
+#aboutus #left p {
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+#aboutus #left #btn {
+    height: 40px;
+    width: 150px;
+    background-color: #ffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    box-shadow: 0px 5px 10px grey;
+    transition: all 0.2s ease;
+}
+
+#aboutus #left #btn:hover {
+    transform: scale(1.02);
+}
+
+#aboutus #right {        /*container*/
+    height: 70vh;
+    width: 25%;
+    border: 8px double #868675;
+    border-radius: 20px;
+    
+}
+
+#aboutus #right img {
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px;
+}
+
+
+/*CONTACTS*/
+
+#contactus {           /*container*/
+    display: flex;
+    background-color: #ec4343;
+    color: white;
+    margin-top: 80px;
+}
+
+
+#LEFT {                /*container*/
+    width: 50%;
+    height: 80vh;
+    padding: 120px;
+    opacity: 1  ;
+}
+
+#LEFT h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#LEFT #mdline {
+    width: 100px;
+    height: 8px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+#LEFT #para {
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#LEFT img {
+    display: flex;
+    width: 50px;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+#contactus #container {
+    display: flex;
+}
+
+#contactus #details {
+    width: 250px;
+    margin-left: 30px;
+}
+
+#contactus #details h5 {
+    font-size: 15px;
+}
+
+#contactus #details h5,p {
+    margin-bottom: 7px;
+}
+
+#contactus #details p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+#contactus #lgline {
+    width: 400px;
+    height: 5px;
+    background-color: #ffffff ;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+#RIGHT {             /*container*/
+    width: 50%;
+    height: 80vh;
+    background-color: #ec4343;
+    padding: 100px;
+    padding-top: 120px;
+}
+
+#RIGHT #name {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+#RIGHT #describe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 35vh;
+}
+
+#RIGHT #name input {
+    width: 267px;
+    height: 50px;
+}
+
+#RIGHT #describe input {
+    height: 50px;
+}
+
+#RIGHT #describe textarea {
+    height: 20vh;
+}
+
+#RIGHT #describe textarea, input {
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 5px 10px #3e3e3e;
+}
+
+#RIGHT .TEXT {
+    padding-left: 20px;
+}
+
+#RIGHT #TEXT {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#RIGHT #BUTTON {
+    background-color: #c6b07d;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 5px 10px #3e3e3e;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+#RIGHT #BUTTON:hover {
+    transform: scale(1.02);
+}
+
+
+#followus {
+
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #9e9e9e;
+    
+}
+
+#container {
+    width: 30%;
+    height: 50%;
+}
+
+#followus #FOLLOWimg {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+#followus #FOLLOWimg img:hover {
+    transform: scale(1.3);
+}
+
+
+#followus #FOLLOWimg img {
+    width: 40px;
+    transition: all .2s ease;
+}
+
+#followus #hepa h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#followus #hepa p {
+    font-size: 14px;
+    margin-bottom: 30px;
+} 
+
+footer {
+    margin-top: 45px;
+    font-size: 15px;
+}
